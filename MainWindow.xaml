@@ -1,0 +1,15 @@
+﻿<Window x:Class="_2020JedlikMintaErettsegiGUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_2020JedlikMintaErettsegiGUI"
+        mc:Ignorable="d"
+        Title="Iskola GUI" Height="482" Width="249">
+    <Grid>
+        <ListBox x:Name="Lista" BorderBrush="Gray" BorderThickness="1" ScrollViewer.CanContentScroll="True" Height="350" Width="205" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="18,25,18,76">
+        </ListBox>
+        <Button x:Name="btnTorles" Click="btnTorles_Click" Height="20" Width="90" FontSize="10" Content="Törlés" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="20,0,0,30"></Button>
+        <Button x:Name="btnMentes" Click="btnMentes_Click" Height="20" Width="90" FontSize="10" Content="Állomány mentése" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,20,30"/>
+    </Grid>
+</Window>
